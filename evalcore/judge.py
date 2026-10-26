@@ -97,7 +97,6 @@ class AnthropicProvider:
         msg = client.messages.create(
             model=self.model,
             max_tokens=512,
-            temperature=0,
             messages=[{"role": "user", "content": prompt}],
         )
         return "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")

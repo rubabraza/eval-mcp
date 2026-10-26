@@ -54,7 +54,7 @@ eval-mcp/
    - **ollama** — local and free ([ollama.com](https://ollama.com)).
    - **gemini** — Google's free API tier
      ([get a key](https://aistudio.google.com/app/apikey); check current limits).
-   - **anthropic** — add with `uv add anthropic`.
+   - **anthropic** — Claude models (SDK included as a dependency).
 
 Select a provider with the `EVAL_PROVIDER` environment variable (or the
 `provider` argument). **API keys are read from environment variables and are
@@ -89,7 +89,7 @@ cp .env.example .env
 # then either:
 #   EVAL_PROVIDER=ollama     (after: ollama pull llama3.2)
 #   EVAL_PROVIDER=gemini     (set GEMINI_API_KEY)
-#   EVAL_PROVIDER=anthropic  (uv add anthropic; set ANTHROPIC_API_KEY)
+#   EVAL_PROVIDER=anthropic  (set ANTHROPIC_API_KEY)
 ```
 
 ## Run file format
