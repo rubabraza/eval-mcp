@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+.pytest_cache/
+
+# Eval run outputs are generated locally; keep the folder, ignore the results.
+runs/*.jsonl

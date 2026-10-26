@@ -1,0 +1,38 @@
+{"id": "t001", "input": "I was charged twice for my October invoice", "expected": {"category": "billing", "priority": "high"}}
+{"id": "t002", "input": "The app crashes every time I open it after the latest update", "expected": {"category": "technical", "priority": "high"}}
+{"id": "t003", "input": "I'm locked out of my account and the password reset email never arrives", "expected": {"category": "account", "priority": "high"}}
+{"id": "t004", "input": "My package has been delayed for over a week with no tracking updates", "expected": {"category": "shipping", "priority": "medium"}}
+{"id": "t005", "input": "Just wanted to say I love the new dashboard design, great work!", "expected": {"category": "feedback", "priority": "low"}}
+{"id": "t006", "input": "I'd like a refund for the subscription month I never used", "expected": {"category": "billing", "priority": "medium"}}
+{"id": "t007", "input": "The export to CSV button does nothing when I click it", "expected": {"category": "technical", "priority": "medium"}}
+{"id": "t008", "input": "I can't change my email address in the account settings", "expected": {"category": "account", "priority": "medium"}}
+{"id": "t009", "input": "I received someone else's order and mine is nowhere to be found", "expected": {"category": "shipping", "priority": "high"}}
+{"id": "t010", "input": "Please add a dark mode to the app", "expected": {"category": "feedback", "priority": "low"}}
+{"id": "t011", "input": "My subscription renewed even though I cancelled it, I want a refund", "expected": {"category": "billing", "priority": "high"}}
+{"id": "t012", "input": "How do I turn on email notifications?", "expected": {"category": "technical", "priority": "low"}}
+{"id": "t013", "input": "There was an unauthorized login from an unknown device, I think I've been hacked", "expected": {"category": "account", "priority": "high"}}
+{"id": "t014", "input": "You shipped the wrong item, I need the correct one sent", "expected": {"category": "shipping", "priority": "medium"}}
+{"id": "t015", "input": "The onboarding tutorial was really helpful, thank you", "expected": {"category": "feedback", "priority": "low"}}
+{"id": "t016", "input": "My invoice shows the wrong company name on it", "expected": {"category": "billing", "priority": "medium"}}
+{"id": "t017", "input": "Our production API is returning 500 errors for every request", "expected": {"category": "technical", "priority": "high"}}
+{"id": "t018", "input": "How do I add a teammate to my workspace?", "expected": {"category": "account", "priority": "low"}}
+{"id": "t019", "input": "When is my order expected to ship?", "expected": {"category": "shipping", "priority": "low"}}
+{"id": "t020", "input": "The pricing page is confusing and hard to compare plans", "expected": {"category": "feedback", "priority": "medium"}}
+{"id": "t021", "input": "Where can I download my past invoices?", "expected": {"category": "billing", "priority": "low"}}
+{"id": "t022", "input": "My data isn't syncing and I lost all of today's work", "expected": {"category": "technical", "priority": "high"}}
+{"id": "t023", "input": "I need to transfer ownership of the account to a colleague", "expected": {"category": "account", "priority": "medium"}}
+{"id": "t024", "input": "The package is marked as delivered but it never arrived", "expected": {"category": "shipping", "priority": "high"}}
+{"id": "t025", "input": "It would be nice to have keyboard shortcuts", "expected": {"category": "feedback", "priority": "low"}}
+{"id": "t026", "input": "I was charged in the wrong currency and overcharged by a lot", "expected": {"category": "billing", "priority": "high"}}
+{"id": "t027", "input": "Images aren't loading in the mobile app", "expected": {"category": "technical", "priority": "medium"}}
+{"id": "t028", "input": "Two of my accounts were merged by mistake", "expected": {"category": "account", "priority": "medium"}}
+{"id": "t029", "input": "Can I change my delivery address before the order ships?", "expected": {"category": "shipping", "priority": "low"}}
+{"id": "t030", "input": "Had a great experience with your support team, thanks!", "expected": {"category": "feedback", "priority": "low"}}
+{"id": "t031", "input": "I never received a receipt for my last payment", "expected": {"category": "billing", "priority": "medium"}}
+{"id": "t032", "input": "The website is completely down and I keep getting connection errors", "expected": {"category": "technical", "priority": "high"}}
+{"id": "t033", "input": "A former employee still has admin access to our account", "expected": {"category": "account", "priority": "high"}}
+{"id": "t034", "input": "My item arrived damaged", "expected": {"category": "shipping", "priority": "medium"}}
+{"id": "t035", "input": "The search feature rarely finds what I'm looking for", "expected": {"category": "feedback", "priority": "medium"}}
+{"id": "t036", "input": "Do you offer a discount for annual billing?", "expected": {"category": "billing", "priority": "low"}}
+{"id": "t037", "input": "The timezone is showing incorrectly in my reports", "expected": {"category": "technical", "priority": "medium"}}
+{"id": "t038", "input": "How do I update my profile picture?", "expected": {"category": "account", "priority": "low"}}

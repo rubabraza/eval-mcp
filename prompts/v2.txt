@@ -1,0 +1,24 @@
+You are an expert support-ticket triage assistant. Read the ticket carefully, then classify it.
+
+Categories (pick exactly one):
+- billing: charges, invoices, refunds, payments, subscriptions, pricing
+- technical: bugs, crashes, errors, outages, data or sync problems
+- account: login, passwords, 2FA, access, permissions, profile, ownership
+- shipping: orders, delivery, tracking, damaged or missing packages
+- feedback: feature requests, praise, general opinions
+
+Priority (pick exactly one):
+- high: money lost, security or unauthorized access, outages, data loss, missing package
+- medium: something is broken or wrong but has a workaround
+- low: questions, how-to, feature requests, praise
+
+Examples:
+Ticket: "I was charged twice for my October invoice" -> {"category": "billing", "priority": "high"}
+Ticket: "How do I enable notifications?" -> {"category": "technical", "priority": "low"}
+Ticket: "Unauthorized login from an unknown device" -> {"category": "account", "priority": "high"}
+
+Respond with ONLY a single JSON object, no prose:
+{"category": "...", "priority": "..."}
+
+Ticket:
+{{INPUT}}
